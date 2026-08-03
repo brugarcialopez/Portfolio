@@ -10,7 +10,8 @@ This repository contains three end-to-end data projects, each built to answer a 
 | **Airbnb Madrid — Price Drivers** | What can a host actually do to justify a higher nightly price? | Physical amenities (TV, WiFi, heating) show a consistent **+14–16%** price effect; host-behavior metrics show none — a clear, actionable prioritization for hosts. | Python, pandas, hypothesis-driven EDA, statistical reasoning, data storytelling |
 | **European Weightlifting Results — Data Pipeline** | Can a single cleaning pipeline reliably scale from a small, clean dataset to a larger, messier one collected independently? | Pipeline built and validated on 2 seasons scaled cleanly to 6 (2019–2024) via web scraping, with no changes to the core parsing logic. | Python, web scraping (`requests`, `pandas.read_html`), regex-based text parsing, reusable pipeline design |
 
-### Tech stack
+### Tech stack
+
 **Languages / core libraries:** Python, pandas, NumPy
 **Machine learning:** scikit-learn (pipelines, ColumnTransformer, LogisticRegressionCV, cross-validation)
 **Visualization:** Matplotlib, Seaborn, Plotly
@@ -18,6 +19,7 @@ This repository contains three end-to-end data projects, each built to answer a 
 **Environment:** Jupyter Notebook
 
 ### Repository structure
+
 Portfolio/
 ├── churn-business-case/
 │   ├── churn_business_case.ipynb
@@ -31,6 +33,7 @@ Portfolio/
     ├── functions.py
     └── data/
 
-### Contact
+### Contact
+
 **Email:** brugarcialopez@gmail.com
 **LinkedIn:** https://www.linkedin.com/in/brunogarlop/
