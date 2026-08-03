@@ -54,7 +54,7 @@ def basic_exploration(df):
     print('-' * 100)
 
 # Null values exploration
-def nulls_exploration(df):
+def null_exploration(df):
     print('How many null values does each column have?')
     display(df.isna().sum().sort_values(ascending=False))
     print('-' * 100)
