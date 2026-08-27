@@ -19,4 +19,4 @@ This repository contains three end-to-end data projects, each built to answer a 
 ### Contact
 **Email:** brugarcialopez@gmail.com\
 **LinkedIn:** https://www.linkedin.com/in/brunogarlop/ \
-**GitHub:** https://github.com
+**GitHub:** https://github.com/brugarcialopez
