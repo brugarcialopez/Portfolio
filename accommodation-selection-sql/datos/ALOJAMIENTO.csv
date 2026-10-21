@@ -1,0 +1,21 @@
+CODIGO_ALOJAMIENTO,NOMBRE,CANT_BANYOS,CANT_HAB,SALON,TERRAZA,AIREC_ACOND,PISCINA,SUPERFICIE
+ALOJ001,Villa Sol del Mar,2,3,SI,SI,SI,SI,120
+ALOJ002,Apartamento Las Palmeras,1,2,SI,NO,SI,NO,75
+ALOJ003,Cabaña El Refugio,1,1,NO,SI,NO,NO,45
+ALOJ004,Piso Centro Histórico,2,3,SI,SI,SI,NO,90
+ALOJ005,Estudio Playa Blanca,1,1,NO,NO,SI,NO,40
+ALOJ006,Chalet Vista al Lago,3,4,SI,SI,SI,SI,150
+ALOJ007,Dúplex Jardines del Sur,2,3,SI,SI,SI,SI,130
+ALOJ008,Loft Urbano,1,1,SI,NO,SI,NO,60
+ALOJ009,Casa Rústica Montaña,2,2,SI,SI,NO,NO,85
+ALOJ010,Ático del Sol,3,3,SI,SI,SI,NO,88
+ALOJ011,Cabaña Bosque Encantado,1,2,NO,SI,NO,NO,65
+ALOJ012,Villa Palmeras,2,3,SI,SI,SI,SI,110
+ALOJ013,Apartamento Moderno,1,2,SI,NO,SI,NO,80
+ALOJ014,Casa del Mar,3,4,SI,SI,SI,SI,160
+ALOJ015,Dúplex Las Rocas,3,4,SI,SI,SI,NO,120
+ALOJ016,Estudio Urbano,1,1,NO,NO,SI,NO,35
+ALOJ017,Chalet Jardín Secreto,3,5,SI,SI,SI,SI,180
+ALOJ018,Piso Parque Central,2,4,SI,SI,SI,NO,100
+ALOJ019,Casa Río Claro,2,2,SI,SI,NO,NO,95
+ALOJ020,Loft Estación Norte,1,1,SI,NO,SI,NO,55

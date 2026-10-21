@@ -1,3 +1,17 @@
-# Ignorar carpetas __pycache__ y archivos .pyc
-**/__pycache__/
-**/.DS_Store
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+# Rebuildable outputs
+**/data/processed/
+**/data/cache/
+
+# Private study documents and temporary PDF previews
+output/pdf/
+tmp/pdfs/
+AGENTS.md
+PROJECT_CONTEXT.md
+INTERVIEW_NOTES.md

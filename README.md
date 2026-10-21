@@ -1,22 +1,25 @@
-# Data Analytics & Data Science Portfolio
-## Bruno Garcia Lopez — Master's student in Data Analytics
-This repository contains three end-to-end data projects, each built to answer a concrete business question — not just to demonstrate a technique in isolation. Every project follows the same approach: understand the problem, explore and clean the data, build a model or analysis fit for that specific purpose, and translate the result into a recommendation a non-technical stakeholder could act on
+# Data Analytics Portfolio — Bruno García López
 
-### Projects
-| Project | Business Question | Key Result | Skills |
-| :--- | :--- | :--- | :--- |
-| **Churn Prediction — Telecom** | Which customers should a telecom company contact first to prevent revenue loss from churn? | Value-weighted targeting captures **2.01x** more at-risk revenue than random outreach (ROC-AUC 0.83, validated via nested cross-validation). | Python, scikit-learn, Logistic Regression, feature engineering, model evaluation under class imbalance |
-| **Airbnb Madrid — Price Drivers** | What can a host actually do to justify a higher nightly price? | Physical amenities (TV, WiFi, heating) show a consistent **+14–16%** price effect; host-behavior metrics show none — a clear, actionable prioritization for hosts. | Python, pandas, hypothesis-driven EDA, statistical reasoning, data storytelling |
-| **European Weightlifting Results — Data Pipeline** | Can a single cleaning pipeline reliably scale from a small, clean dataset to a larger, messier one collected independently? | Pipeline built and validated on 2 seasons scaled cleanly to 6 (2019–2024) via web scraping, with no changes to the core parsing logic. | Python, web scraping (`requests`, `pandas.read_html`), regex-based text parsing, reusable pipeline design |
+Five projects explore customer prioritization, property pricing, competition results, accommodation selection, and emergency-care activity. Each project README explains its question, evidence, analytical choices, and limits before linking to the underlying work.
 
-### Tech stack
-**Languages / core libraries:** Python, pandas, NumPy \
-**Machine learning:** scikit-learn (pipelines, ColumnTransformer, LogisticRegressionCV, cross-validation) \
-**Visualization:** Matplotlib, Seaborn, Plotly \
-**Data acquisition:** requests, pandas.read_html (web scraping) \
-**Environment:** Jupyter Notebook 
+## Explore the projects
 
-### Contact
-**Email:** brugarcialopez@gmail.com\
-**LinkedIn:** https://www.linkedin.com/in/brunogarlop/ \
-**GitHub:** https://github.com/brugarcialopez
+| Project | What it demonstrates | Start here |
+|---|---|---|
+| Telecom churn | Customer exploration, logistic regression, evaluation, and value-weighted ranking | [Why prioritize these 500 customers?](telecom-churn-priorization/README.md) |
+| Airbnb Madrid | Joining data, defining a study group, and interpreting descriptive price comparisons | [Which listing features are associated with price?](airbnb-madrid-pricing/README.md) |
+| European weightlifting | Preparing semi-structured records, scraping tables, and comparing competition outcomes | [From medal tables to athlete records](european-weightlifting-analysis/README.md) |
+| Accommodation selection | SQL constraints, joins, filters, aggregations, and a supported recommendation | [From client requirements to a shortlist](accommodation-selection-sql/README.md) |
+| Emergency care | Dashboard questions, calculated fields, and selectable time indicators | [Understand workload and waiting-time measures](emergency-care-dashboard/README.md) · [Open dashboard](https://datastudio.google.com/s/qPny32nWdI4) |
+
+The three Python project READMEs include visual evidence from their notebooks. SQL presents its candidate comparison directly, while emergency care links to the interactive dashboard and explains its indicator definitions. [Figure sources and checks](docs/FIGURE_SOURCES.md).
+
+## Reviewing and running the work
+
+Start with a project README, then follow its notebook, SQL, or dashboard link. Inspection and execution instructions are specific to each project. Raw inputs retain their original fields and values.
+
+All three Python notebooks completed fresh-kernel runs, including weightlifting’s live scraping, with outputs and direct dependency versions recorded. Its source year and duplicate-edition issues are resolved. The complete SQL script also passed execution in a fresh MySQL 9.7.1 instance. Live dashboard verification remains open. [Setup and verification](docs/REPRODUCIBILITY.md).
+
+## Background
+
+Four projects originated at Nuclio Digital School, and telecom churn began as a personal project. Their original analytical work is preserved, with presentation improvements and explicitly approved corrections. Academic context and original briefs remain linked from the individual projects.
